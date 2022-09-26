@@ -1,0 +1,59 @@
+#header {
+  color: #2e8b57;
+  padding: 10px 0px;
+}
+
+#header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#logo {
+  font-family: "DM Serif Display", serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  color: #2e8b57;
+  text-decoration: none;
+}
+
+#header form {
+  display: flex;
+}
+
+#input-search {
+  border: 1px solid #2e8b57;
+  outline: none;
+  border-radius: 10px 0px 0px 10px;
+  padding: 5px 10px;
+}
+
+#btn-search {
+  background-color: #2e8b57;
+  border: 0;
+  cursor: pointer;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#btn-search img {
+  width: 20px;
+}
+
+#opc-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+#opc-header a {
+  text-decoration: none;
+  color: #2e8b57;
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+
+#opc-header a:hover {
+  color: #215c3a;
+}
