@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="/css/default-style.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/submit-recipe.css">
+    <title>Cozinha Caseira - Enviar Receita</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav class="container">
+            <a href="/index.html" id="logo">Cozinha Caseira</a>
+            <form action="" method="">
+                <input type="text" placeholder="Buscar receitas..." id="input-search">
+                <button type="submit" id="btn-search"><img src="/img/lupa.png" alt="lupa"></button>
+            </form>
+            <div id="opc-header">
+                <a href="html/submit-recipe.html">
+                    <span class="material-symbols-outlined">
+                        add_circle
+                    </span>
+                    Enviar receita
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        favorite
+                    </span>
+                    Receitas favoritas
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div>
+            <img src="/img/Plant-based.png" alt="">
+        </div>
+        <form action="" id="form">
+            <h2>Enviar receita</h2>
+            <input type="text" name="recipe-name" placeholder="Nome da receita" id="recipe-name">
+            <div id="time-and-portion">
+                <div>
+                    <label for="preparation-time">
+                        <span class="material-symbols-outlined form-icons">alarm</span>
+                        Tempo de preparo
+                    </label>
+                    <input type="number" name="preparation-time" id="preparation-time">
+                    <span>minutos</span>
+                </div>
+                <div>
+                    <label for="portions">
+                        <span class="material-symbols-outlined form-icons">restaurant_menu</span>
+                        Porções
+                    </label>
+                    <input type="number" name="portions" id="portions">
+                </div>
+            </div>
+            <select name="recipe-category" id="recipe-category">
+                <option>Escolha uma categoria</option>
+                <option value="1">Carnes</option>
+                <option value="2">Bolos e tortas doces</option>
+                <option value="3">Peixes e frutos do mar</option>
+                <option value="4">Saladas, molhos e acompanhamentos</option>
+                <option value="5">Sopas</option>
+                <option value="6">Massas</option>
+                <option value="7">Bebidas</option>
+                <option value="8">Doces e sobremesas</option>
+                <option value="9">Lanches</option>
+                <option value="10">Alimentação saúdavel</option>
+            </select>
+            <label for="ingredients">
+                <span class="material-symbols-outlined form-icons">egg</span>
+                Ingredientes
+            </label>
+            <textarea name="ingredients" id="ingredients" cols="30" rows="10" placeholder="Escreva aqui cada ingrediente da receita por linha"></textarea>
+            <label for="preparation-mode">
+                <span class="material-symbols-outlined form-icons">menu_book</span>
+                Modo de preparo
+            </label>
+            <textarea name="preparation-mode" id="preparation-mode" cols="30" rows="10" placeholder="Escreva aqui cada passo da receita por linha"></textarea>
+            <div id="image">
+                <label for="image-upload">
+                    <span class="material-symbols-outlined form-icons">add_a_photo</span>
+                    Adicionar foto
+                </label>
+                <input type="file" name="image-upload" id="image-upload" accept="image/png, image/gif, image/jpeg">
+            </div>
+            <button type="submit" id="form-submit">Enviar receita</button>
+        </form>
+    </main>
+</body>
+
+</html>
