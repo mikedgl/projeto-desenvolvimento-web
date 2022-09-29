@@ -1,0 +1,37 @@
+#header {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.recipe h1 {
+  color: #2e8b57;
+  margin: 20px 0px;
+}
+
+.container-time-portions {
+  display: flex;
+  gap: 20px;
+  color: #2e8b57;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.container-time-portions div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.container-time-portions .recipe-data {
+  color: #000;
+}
+
+.container-ingredients h2,
+.container-preparation-mode h2 {
+  color: #2e8b57;
+  margin: 0;
+}
+
+.container-ingredients h2,
+.container-preparation-mode h2 {
+  margin-top: 20px;
+}
