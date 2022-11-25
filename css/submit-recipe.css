@@ -53,8 +53,12 @@ label[for="preparation-mode"] {
 #image {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: space-between;
   gap: 15px;
+}
+
+#image input {
+  width: 70%;
 }
 
 #image label {
@@ -67,7 +71,7 @@ label[for="preparation-mode"] {
 #recipe-category,
 #ingredients,
 #preparation-mode,
-#image {
+#image-upload {
   background-color: #f7f7f7;
   border: none;
   border-radius: 6px;
